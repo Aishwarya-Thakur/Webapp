@@ -1,0 +1,14 @@
+create database user;
+use user;
+
+create table register(email varchar(30) primary key,
+contact varchar(15),
+name varchar(30),
+dob varchar(15),
+password varchar(30));
+
+
+
+
+
+
