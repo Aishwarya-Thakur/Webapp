@@ -56,7 +56,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-		os.path.join('C:/Python/OpinionMining/OpinionApp', 'templates'),
+		os.path.join('C:/Python/WebApp/webapp', 'templates'),
 	],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'Opinion.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'OpinionMining',
+        'NAME': 'WebApp',
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'USER': 'root',
