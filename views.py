@@ -81,10 +81,7 @@ def ChangeMyPassword(request):
             output+=getPostData()
             context= {'data':output}
             return render(request, 'UserScreen.html', context)
-        else:
-            context= {'data':'Error in updating status'}
-            return render(request, 'UpdateStatus.html', context)      
-
+   
 
 def EditProfile(request):
     if request.method == 'GET':
