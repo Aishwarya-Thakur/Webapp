@@ -114,7 +114,7 @@ def EditProfile(request):
         output+='<tr><td><b>Password</b></td><td><input type=password name=password style=font-family: Comic Sans MS size=30 value='+password+'></td></tr>'
         output+='<tr><td><b>Contact&nbsp;No</b></td><td><input type=text name=contact style=font-family: Comic Sans MS size=20 value='+contact+'></td></tr>'
         output+='<tr><td><b>Email&nbsp;ID</b></td><td><input type=text name=email style=font-family: Comic Sans MS size=40 value='+email+'></td></tr>'
-        output+='<tr><td><b>DOB</b></td><td><input type=text name=address style=font-family: Comic Sans MS size=60 value='+dob+'></td></tr>'
+        output+='<tr><td><b>DOB</b></td><td><input type=text name=dob style=font-family: Comic Sans MS size=60 value='+dob+'></td></tr>'
         context= {'data':output}
         return render(request, 'EditProfile.html', context)    
 
