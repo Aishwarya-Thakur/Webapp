@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'OpinionApp'
+    'WebApp'
 ]
 
 MIDDLEWARE = [
@@ -70,7 +70,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Opinion.wsgi.application'
+WSGI_APPLICATION = 'WebApp.wsgi.application'
 
 
 # Database
